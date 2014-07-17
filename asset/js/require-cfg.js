@@ -4,4 +4,4 @@
 //     jquery: 'http://libs.baidu.com/jquery/2.0.0/jquery.min.js'
 //   }
 // });
-alert('requiring...222')
+alert('requiring...222==')
