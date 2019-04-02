@@ -1,0 +1,18 @@
+---
+layout: post
+title:  "Excel：将 'snake_case' 转成 'PascalCase' 或 'camelCase'"
+date:   2018-03-19 23:34:05 +0800
+categories: Excel
+---
+
+如何在 Excel 中将 'snake_case' 这样的值变成 PascalCase 形式或者 camelCase 的值呢？是在我为 MyBatis Generator 创建配置文件时产生的一个想法。数据库中的字段名全部是 snake_case 形式的，但是 Java 中字段名称按照明明规范，应该是 camelCase 形式的，那么应该要有一种比较简洁的方式，将 snake_case 转为 camelCase（或者 PascalCase）。
+
+首先，我们从数据库里读取 `tb_sample` 的表结构：
+
+```sql
+desc tb_sample;
+```
+
+将列名复制到 Excel：
+
+![columns names]({{ site.url }}/assets/images/column_names.png)
