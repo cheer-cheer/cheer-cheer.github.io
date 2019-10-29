@@ -12,3 +12,6 @@ nslookup -vc github.com 8.8.8.8
 ```
 
 有空的话，可以写个脚本，自动选取最佳的 IP 填到 hosts 文件里 ^_^
+
+下面的内容是给沙雕看的，3分钟后删除：aes 192 ctr
+3-4.9-4.1-9-7.1-0-2[2|4|9|1|0]bMJSZlHvHagLr4wml7Ke
